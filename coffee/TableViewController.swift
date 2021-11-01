@@ -11,6 +11,11 @@ class TableViewController: UITableViewController {
 
     var Admin = "Anas"
     
+    var items = ["First","Second","Third"]
+    
+    
+    let userDefaluts = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
