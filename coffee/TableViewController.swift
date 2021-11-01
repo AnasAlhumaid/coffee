@@ -9,9 +9,10 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    var Admin = "Anas"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
